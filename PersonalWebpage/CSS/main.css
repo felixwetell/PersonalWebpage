@@ -70,6 +70,7 @@ body {
 /* Start for responsive CSS */
 
 @media (max-width: 768px) {
+
     .sidebar {
         display: none;
     }
@@ -144,9 +145,11 @@ body {
     #hamburger-logo:hover {
         background-color: #9C27B0 !important;
     }
+
 }
 
 @media(min-width: 768px) {
+
     .hamburger-menu {
         display: none;
     }
@@ -177,6 +180,7 @@ body {
             .sidebar-item a:hover {
                 color: #E0E0E0;
             }
+
 }
 
 /* End of responsive CSS */
