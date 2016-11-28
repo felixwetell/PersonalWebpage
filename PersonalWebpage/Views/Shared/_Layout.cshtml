@@ -4,20 +4,35 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>TheWetell</title>
+    <title>TheWetell - Swaggering</title>
 
+    <!-- Stylesheets -->
     <link href="~/CSS/main.css" rel="stylesheet" />
+    @RenderSection("stylesheets", false)
+
+    <!-- Scripts -->
+    <script src="~/JS/hamburger.js"></script>
 </head>
 
 <body>
     <div class="sidebar">
         <div class="sidebar-item">
-            <h2><a>Home</a></h2>
+            <h2><a href="~/Home/Index">Home</a></h2>
             <h2><a>Who am I?</a></h2>
             <h2><a>Contact me!</a></h2>
             <h2><a>Social Media</a></h2>
         </div>
     </div>
+
+    <ul class="hamburger-menu" id="hamburger">
+        <li><a id="hamburger-logo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Dottw.svg/1280px-Dottw.svg.png" /></a></li>
+        <li><a href="../Home/Index">Home</a></li>
+        <li><a href="../Home/About">About</a></li>
+        <li><a href="../Home/Contact">Contact</a></li>
+        <li class="icon">
+            <a href="javascript:void(0);" style="font-size:15px;" onclick="openHamburger()">☰</a>
+        </li>
+    </ul>
 
     <div class="main">
         <div class="container">
@@ -41,6 +56,14 @@
                     <a href="http://battlelog.battlefield.com/bf4/user/TheWetells/">Battlelog - Battlefield 4</a>
                     |
                     <a href="http://battlelog.battlefield.com/bf3/user/TheWetells/">Battlelog - Battlefield 3</a>
+                    |
+                    <br />
+                    |
+                    <a href="https://github.com/felixwetell">Github</a>
+                    |
+                    <a href="https://twitter.com/felixwetell">Twitter</a>
+                    |
+                    <a href="https://facebook.com/wetellracing">Facebook Page</a>
                     |
                 </p>
             </div>
