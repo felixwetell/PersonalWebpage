@@ -1,18 +1,23 @@
 ﻿.sprite {
-    background-image: url(~/IMG/spritesheet.png);
+    background-image: url("../IMG/spritesheet.png");
     background-repeat: no-repeat;
     display: block;
     margin: 0 auto;
+    border-radius: 5px;
 }
 
 .sprite-plugdj-character {
     width: 219px;
     height: 248px;
     background-position: -5px -5px;
+    transition-duration: 0s;
 }
 
 .sprite-plugdj-character-grey {
     width: 219px;
     height: 248px;
+    background-position: -234px -5px;
+}
+.sprite-plugdj-character:hover {
     background-position: -234px -5px;
 }

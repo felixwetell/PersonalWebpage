@@ -44,11 +44,16 @@ body {
         font-size: 4em;
         text-align: center;
     }
+    .container p {
+        color: #E0E0E0 !important;
+        text-align: center;
+    }
 
 .splitter {
     width: 60vw;
     height: 1px;
     margin: 0 auto 10px;
+    border-radius: 1px;
     background-color: #BDBDBD;
 }
 
@@ -73,6 +78,10 @@ body {
 
     .sidebar {
         display: none;
+    }
+
+    .main {
+        width: 100vw;
     }
 
     ul.hamburger-menu {
