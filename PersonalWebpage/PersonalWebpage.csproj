@@ -120,12 +120,39 @@
   <ItemGroup>
     <Content Include="CSS\index.css" />
     <Content Include="CSS\main.css" />
+    <Content Include="favicon\android-icon-144x144.png" />
+    <Content Include="favicon\android-icon-192x192.png" />
+    <Content Include="favicon\android-icon-36x36.png" />
+    <Content Include="favicon\android-icon-48x48.png" />
+    <Content Include="favicon\android-icon-72x72.png" />
+    <Content Include="favicon\android-icon-96x96.png" />
+    <Content Include="favicon\apple-icon-114x114.png" />
+    <Content Include="favicon\apple-icon-120x120.png" />
+    <Content Include="favicon\apple-icon-144x144.png" />
+    <Content Include="favicon\apple-icon-152x152.png" />
+    <Content Include="favicon\apple-icon-180x180.png" />
+    <Content Include="favicon\apple-icon-57x57.png" />
+    <Content Include="favicon\apple-icon-60x60.png" />
+    <Content Include="favicon\apple-icon-72x72.png" />
+    <Content Include="favicon\apple-icon-76x76.png" />
+    <Content Include="favicon\apple-icon-precomposed.png" />
+    <Content Include="favicon\apple-icon.png" />
+    <Content Include="favicon\browserconfig.xml" />
+    <Content Include="favicon\favicon-16x16.png" />
+    <Content Include="favicon\favicon-32x32.png" />
+    <Content Include="favicon\favicon-96x96.png" />
+    <Content Include="favicon\favicon.ico" />
+    <Content Include="favicon\ms-icon-144x144.png" />
+    <Content Include="favicon\ms-icon-150x150.png" />
+    <Content Include="favicon\ms-icon-310x310.png" />
+    <Content Include="favicon\ms-icon-70x70.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="IMG\spritesheet.png" />
     <Content Include="JS\hamburger.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="favicon\manifest.json" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -163,7 +190,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="favicon\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
